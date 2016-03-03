@@ -34,7 +34,7 @@ namespace DS_Pratice
     {
         
     }
-    
+    //This comment is for mac only
     public class DNode
     {
  
@@ -44,8 +44,8 @@ namespace DS_Pratice
 
         public DNode ()
         {
-   
-           
+
+            int num;
         }
     }
 
@@ -59,7 +59,7 @@ namespace DS_Pratice
 
         public void addNode(int data)
         {
-            DNode dNode = new DNode(data);
+            
         }
         public void deleteNode()
         {
