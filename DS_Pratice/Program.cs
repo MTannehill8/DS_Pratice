@@ -10,36 +10,46 @@ namespace DS_Pratice
     {
         static void Main(string[] args)
         {
-            
+            Program menu = new Program();
+            int ans;
+            ans = menu.displayMenu();
+           
+        }
+        public int displayMenu()
+        {
+            int userMenuSelection;
+
+            string menuText = "****************Main Menu******************" + Environment.NewLine +
+                          "Select which data structure you want to use    " + Environment.NewLine +
+                          "1) Double Linked List                          " + Environment.NewLine +
+                          "Q) Quit                                        ";
+
+
+            Console.WriteLine(menuText);
+            userMenuSelection = Console.Read();
+            return userMenuSelection;
         }
     }
-
+    public class Menu
+    {
+        
+    }
+    
     public class DNode
     {
-        static int noOfLinkedList = 0;
-        int data;
+ 
+        int data_;
         DNode prevNode;
         DNode nextNode;
 
-        public DNode (int data)
+        public DNode ()
         {
-            this.data = data;
-            noOfLinkedList++;
+   
+           
         }
     }
 
-    class SinLinkedList
-    {
-        public void addNode()
-        {
 
-        }
-        public void deleteNode()
-        {
-
-        }
-
-    }
 
     class  DoubLinkedList
     {
@@ -55,9 +65,15 @@ namespace DS_Pratice
         {
 
         }
-        public void insertNode()
+        public void insertNodePrev()
         {
 
         }
+
+        public void insertNodeNext()
+        {
+
+        }
+       
     }
 }
