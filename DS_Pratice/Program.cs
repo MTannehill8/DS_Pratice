@@ -30,6 +30,7 @@ namespace DS_Pratice
             return userMenuSelection;
         }
     }
+    //this is from my laptop
     public class Menu
     {
         
@@ -59,7 +60,7 @@ namespace DS_Pratice
 
         public void addNode(int data)
         {
-            DNode dNode = new DNode(data);
+           // DNode dNode = new DNode(data);
         }
         public void deleteNode()
         {
