@@ -34,7 +34,8 @@ namespace DS_Pratice
     {
         
     }
-    //This comment is for mac only
+   
+    //hello to all my mac friends
     public class DNode
     {
  
