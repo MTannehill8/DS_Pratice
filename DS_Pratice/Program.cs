@@ -20,9 +20,9 @@ namespace DS_Pratice
             int userMenuSelection;
 
             string menuText = "****************Main Menu******************" + Environment.NewLine +
-                          "Select which data structure you want to use    " + Environment.NewLine +
-                          "1) Double Linked List                          " + Environment.NewLine +
-                          "Q) Quit                                        ";
+                              "Select which data structure you want to use" + Environment.NewLine +
+                              "1) Double Linked List                      " + Environment.NewLine +
+                              "Q) Quit                                    ";
 
 
             Console.WriteLine(menuText);
